@@ -1,1 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Slither.io Online Free - Snake Game | JoyGame.online</title>
+    <meta name="description" content="Play Slither.io online for free! Control your snake, eat glowing orbs, grow bigger and dominate the leaderboard in this addictive multiplayer browser game.">
+    <meta name="keywords" content="slither.io, slither io, snake game, online game, multiplayer game, browser game, free game">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="JoyGame.online">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Play Slither.io Online Free - Snake Game">
+    <meta property="og:description" content="Play Slither.io online for free! Control your snake, eat glowing orbs, grow bigger and dominate the leaderboard.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joygame.online">
+    <meta property="og:site_name" content="JoyGame.online">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Play Slither.io Online Free - Snake Game">
+    <meta name="twitter:description" content="Play Slither.io online for free! Control your snake, eat glowing orbs, grow bigger and dominate the leaderboard.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://joygame.online">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-green': '#34C759',
+                        'apple-orange': '#FF9500',
+                        'apple-red': '#FF3B30',
+                        'apple-purple': '#AF52DE',
+                        'apple-pink': '#FF2D92',
+                        'apple-gray': '#8E8E93',
+                        'apple-gray-light': '#F2F2F7',
+                        'apple-gray-dark': '#1C1C1E'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .game-container {
+            background: linear-gradient(135deg, #007AFF 0%, #34C759 100%);
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.02);
+        }
+        
+        iframe {
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card {
+            background: linear-gradient(145deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
 
+<body class="min-h-screen bg-gradient-to-br from-apple-blue via-apple-green to-apple-purple">
+    <!-- Header -->
+    <header class="glass-effect shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-apple-green rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">🎮</span>
+                    </div>
+                    <span class="text-white font-semibold text-xl">JoyGame.online</span>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#game" class="text-white hover:text-apple-green transition-colors">Play Now</a>
+                    <a href="#about" class="text-white hover:text-apple-green transition-colors">About</a>
+                    <a href="#features" class="text-white hover:text-apple-green transition-colors">Features</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                Play <span class="text-apple-green">Slither.io</span> Online Free
+            </h1>
+            <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+                Control your snake, devour glowing orbs, and dominate the leaderboard in the most addictive multiplayer browser game!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#game" class="bg-apple-green hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 hover-scale">
+                    🎮 Play Now
+                </a>
+                <a href="#about" class="glass-effect text-white font-semibold py-3 px-8 rounded-full hover-scale">
+                    📖 Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="glass-effect rounded-2xl p-6 md:p-8 hover-scale">
+                <h2 class="text-3xl font-bold text-white mb-6 text-center">🐍 Play Slither.io Game</h2>
+                <div class="relative w-full" style="padding-bottom: 56.25%; height: 0;">
+                    <iframe 
+                        src="http://slither.com/io" 
+                        class="absolute top-0 left-0 w-full h-full"
+                        frameborder="0" 
+                        allowfullscreen
+                        title="Slither.io Game"
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <p class="text-white/80 text-center mt-4 text-sm">
+                    Use your mouse to control your snake. Eat glowing orbs to grow bigger!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center">About Slither.io</h2>
+            <div class="glass-effect rounded-2xl p-8 mb-8">
+                <p class="text-white/90 text-lg leading-relaxed mb-6">
+                    Slither.io is the ultimate multiplayer snake game that has captivated millions of players worldwide. This modern twist on the classic Snake game combines simple controls with competitive multiplayer action, creating an incredibly addictive gaming experience.
+                </p>
+                <p class="text-white/90 text-lg leading-relaxed mb-6">
+                    In Slither.io, you control a colorful snake in a vast arena filled with glowing orbs and other players. Your objective is simple: eat as many orbs as possible to grow your snake while avoiding collisions with other snakes. When other players crash into you, they explode into orbs that you can collect to grow even faster.
+                </p>
+                <p class="text-white/90 text-lg leading-relaxed">
+                    The game features smooth gameplay, vibrant graphics, and real-time multiplayer action that keeps you coming back for more. Whether you're a casual gamer or a competitive player, Slither.io offers endless entertainment and the thrill of climbing the leaderboard.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">Game Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl mb-4">🌍</div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Multiplayer Action</h3>
+                    <p class="text-white/80">Play with thousands of players from around the world in real-time multiplayer battles.</p>
+                </div>
+                
+                <div class="feature-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Simple Controls</h3>
+                    <p class="text-white/80">Easy to learn but hard to master. Just use your mouse to control your snake's movement.</p>
+                </div>
+                
+                <div class="feature-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl mb-4">🏆</div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Leaderboards</h3>
+                    <p class="text-white/80">Compete for the top spot on the leaderboard and show off your snake mastery skills.</p>
+                </div>
+                
+                <div class="feature-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl mb-4">🎨</div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Custom Skins</h3>
+                    <p class="text-white/80">Personalize your snake with various skins and colors to stand out from the crowd.</p>
+                </div>
+                
+                <div class="feature-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Cross-Platform</h3>
+                    <p class="text-white/80">Play seamlessly on desktop, tablet, or mobile devices with responsive design.</p>
+                </div>
+                
+                <div class="feature-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Fast-Paced</h3>
+                    <p class="text-white/80">Quick matches with instant respawning keep the action going non-stop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Play Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">How to Play Slither.io</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="glass-effect rounded-2xl p-6">
+                    <h3 class="text-xl font-semibold text-white mb-4">🎮 Basic Controls</h3>
+                    <ul class="text-white/90 space-y-2">
+                        <li>• Move your mouse to control your snake</li>
+                        <li>• Click or hold mouse button to boost speed</li>
+                        <li>• Avoid hitting other snakes</li>
+                        <li>• Eat glowing orbs to grow bigger</li>
+                    </ul>
+                </div>
+                
+                <div class="glass-effect rounded-2xl p-6">
+                    <h3 class="text-xl font-semibold text-white mb-4">🏆 Pro Tips</h3>
+                    <ul class="text-white/90 space-y-2">
+                        <li>• Cut off other snakes to make them crash</li>
+                        <li>• Use boost strategically to escape danger</li>
+                        <li>• Stay near the center for more action</li>
+                        <li>• Patience is key - don't rush unnecessarily</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-effect py-12 px-4 sm:px-6 lg:px-8 mt-16">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-apple-green rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold text-sm">🎮</span>
+                        </div>
+                        <span class="text-white font-semibold text-xl">JoyGame.online</span>
+                    </div>
+                    <p class="text-white/80">Your ultimate destination for free online games. Play Slither.io and many more exciting games!</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#game" class="text-white/80 hover:text-apple-green transition-colors">Play Game</a></li>
+                        <li><a href="#about" class="text-white/80 hover:text-apple-green transition-colors">About</a></li>
+                        <li><a href="#features" class="text-white/80 hover:text-apple-green transition-colors">Features</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Game Info</h4>
+                    <ul class="space-y-2 text-white/80">
+                        <li>• Free to play</li>
+                        <li>• No download required</li>
+                        <li>• Multiplayer online</li>
+                        <li>• All devices supported</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/20 mt-8 pt-8 text-center">
+                <p class="text-white/80">© 2025 JoyGame.online. All rights reserved. Play Slither.io and other amazing games for free!</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "JoyGame.online - Slither.io",
+        "url": "https://joygame.online",
+        "description": "Play Slither.io online for free! Control your snake, eat glowing orbs, grow bigger and dominate the leaderboard in this addictive multiplayer browser game.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://joygame.online/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "Slither.io",
+        "url": "https://joygame.online",
+        "description": "Multiplayer snake game where players control snakes, eat orbs to grow, and compete on leaderboards.",
+        "genre": "Action, Multiplayer",
+        "gamePlatform": "Web Browser",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</body>
+</html>
